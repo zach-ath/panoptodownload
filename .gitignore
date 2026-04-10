@@ -122,3 +122,9 @@ dmypy.json
 # Downloaded videos (assuming these are large files)
 Part 1 videos/
 Part 2 videos/
+*.mp4
+*.avi
+*.mkv
+*.mov
+*.flv
+*.wmv
