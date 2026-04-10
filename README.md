@@ -4,8 +4,9 @@ A Python script to download videos from Panopto folders using Playwright for bro
 
 ## Prerequisites
 
-- Python 3.x
+- Python 3.x 
 - Playwright
+- (you may want to consult an LLM on how to install this)
 
 ## Installation
 
@@ -40,6 +41,7 @@ A Python script to download videos from Panopto folders using Playwright for bro
    - Log in with your university credentials in the browser window that opens.
    - Scroll down to load all videos in the folder.
    - Press ENTER in the terminal to start downloading.
+   - **This is currently setup for UoA - but you can get an LLM to change this out**
 
 The script will automatically download all visible videos in the folder to the current directory.
 
@@ -50,5 +52,5 @@ The script will automatically download all visible videos in the folder to the c
 - There's a 3-second delay between downloads to avoid rate limiting.
 
 ## Disclaimer
-
+It will fail if you don't have enough storage space.
 Use this script responsibly and in accordance with your institution's terms of service and copyright policies.
